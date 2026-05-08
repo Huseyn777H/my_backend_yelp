@@ -1,0 +1,9 @@
+type Restaurant
+  @model
+  @auth(rules: [{ allow: private }]) {
+  id: ID!
+  clientId: String
+  name: String!
+  description: String!
+  city: String!
+}
