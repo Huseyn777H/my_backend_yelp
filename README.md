@@ -14,7 +14,7 @@ Clone the repository, enter the project directory, and install dependencies with
 
 ## Usage
 
-Open the deployed AWS Amplify URL, create an account or sign in through the Cognito authentication screen, then use the form to add a restaurant. Submitted restaurants are stored through the AppSync GraphQL API and shown in the table below the form. The required submission URL is also stored in `my_yelp_url.txt`.
+Open the deployed AWS Amplify URL, create an account with a username, password, and email address, then confirm the account with the email verification code. After signing in, use the form to add a restaurant. Submitted restaurants are stored through the AppSync GraphQL API and shown in the table below the form. The required submission URL is also stored in `my_yelp_url.txt`.
 
 ## Qwasar Reference
 
